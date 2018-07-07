@@ -1,0 +1,290 @@
+$primary: #530f72;
+@mixin yellowFont(){
+	.yellow{
+				color: #ffc841;
+			}
+}
+.navbar{
+		background-color: #480d63;
+		margin-bottom: -55px;
+		.container{
+			.navbar-brand{
+				width: 100px;
+				height: 90px;
+				margin-left: 10px;
+				.grabOn{
+					color: #90b859;
+					text-align: center;
+					margin-bottom: -15px;
+
+				}
+				.logo{
+					margin-bottom: -10;
+					padding-bottom: 0px;
+
+				}
+			}
+		}
+		a.navbar-brand{
+			
+			font-size: 25px;
+		}
+		.navbar-nav{
+			padding-left: 100px;
+			.nav-item{
+				padding-right: 20px;
+				a.nav-link{
+					color: #d04cd6;
+					font-size: 20px;
+				}
+		 	}		
+		}
+}
+		
+
+#home{
+	@include yellowFont();
+	background-color: $primary;
+	color: white;
+
+	padding: 100px 30px;
+	
+	.home-inner{
+		padding-top: 150px;
+		.quote{
+			font-size: 1.3rem;
+
+		}
+		
+		.days{
+			padding: 10px;
+			border: 1px solid #ffc841;
+		}
+		
+		.super{
+			
+			width: 300px;
+			//height: 150px;
+			padding: 20px 10px;
+			border: 1px solid white;
+			border-radius: 40px;
+			text-align: center;
+			font-size: 1.5rem;
+		}
+		.superfan{
+			margin-top: 20px;
+			color: #692985;
+			font-size: 1.2rem;
+		}
+		.homeText{
+			font-weight: 300;
+			font-size: 1.6rem;
+			padding: 30px;
+		}
+	}
+}
+
+#overview{
+	margin-top: 10px;
+		.inner-overview{
+			margin: 70px 0px;
+			.heading{
+				color: $primary;
+				font-weight: bolder;
+				font-size: 2.3rem;
+			}
+			.overviewText{
+				margin-top: 50px;
+				font-weight: 100;
+				font-size: 1.3rem;
+			}
+		}
+	}
+
+
+#contest{
+	background-color: #77299b;
+	color: white;
+	padding: 50px;
+	
+	.contest-steps{
+		.heading{
+			padding:50px 20px;
+			font-size: 2.5rem;
+		}
+		.tag{
+			font-size: 2.0em;
+			color: #ffc841;
+		}
+
+		.fa{
+			font-size: 150px;
+			padding-bottom: 20px;
+		}
+		.buttonLink{
+			.fa{
+				font-size: 1rem;
+			}
+		}
+	}
+}
+
+#journey{
+	padding-bottom: 30px;
+	.heading{
+		color: #480d63;
+		padding-top: 50px;
+		padding-bottom: 30px;
+	}
+	.number{
+		
+		background-color: #480d63;
+		border-radius: 50%;
+		height: 117px;
+  		width: 117px;
+  		display: inline-block;
+  		color: white;
+  		text-align: center;
+  		
+  		line-height: 100px;
+  		justify-content: end;
+  		font-size: 2rem;
+
+	}
+}
+#prizes{
+	background-color: $primary;
+	h3{
+		color: white;
+		padding-top: 50px;
+		padding-bottom: 80px;
+		font-size: 2.5rem;
+	}
+	.fa{
+		font-size: 150px;
+		color: #d04cd6;
+		padding-bottom: 50px;
+	}
+	.tag{
+		color: #ffc841;
+		font-size: 2.0em;
+	}
+}
+
+.winners{
+	background-color: #71368c;
+	h2{
+		padding-top: 50px;
+		padding-bottom: 35px;
+		color: white;
+	}
+	.superHeroes{
+		.innerBox{
+			margin: 5px;
+			padding: 5px;
+		}
+		.fa{
+		font-size: 100px;
+		color: #d04cd6;
+		padding-bottom: 50px;
+		}
+		p{
+			color: white;
+			
+		}
+		.tag{
+				color: #ffc841;
+
+			}
+		.box{
+			width: 400px;
+			height: 500px;
+			background-color: $primary;
+			padding: 10px 10px 10px 10px;
+
+			border-radius: 2%;
+			.bordered{
+				border-radius: 10%;
+				border: 1px solid white;
+				padding: 6px;
+			}
+		}
+	}
+	.numbers{
+		padding-top: 70px;
+		padding-bottom: 40px;
+
+	}.text-white{
+		padding-left: 0px;
+ 			padding-right: 0px;
+ 			.imageSection{
+			background-image: url('../img/bg1.jpg');
+ 			background-size: cover;
+ 			
+ 			position: relative;
+ 			min-height: 400px;
+ 			border: 1px solid black;
+ 			;
+		
+		.dark-overlay{
+ 		background-color: rgba(0,0,0,0.7);
+ 		position: absolute;
+ 		top: 0;
+ 		left: 0;
+ 		width: 100%;
+ 		min-height: 400px;
+ 		padding-top: 150px;
+ 		text-align: center;
+ 		
+ 		}
+		}
+
+	}
+		
+	
+}
+.paddingZero{
+    padding-right:0;
+    padding-left:0;
+}
+
+#contactUs{
+	.message{
+		h3{
+			color: $primary;
+			font-size: 2.3rem;
+			padding-bottom: 50px;
+		}
+		padding-top: 50px;
+		padding-bottom: 50px;
+		color: $primary;
+	}
+	#hashtag{
+		h2{
+			font-size: 3rem;
+			color: $primary;
+		}
+		p{
+			color: $primary;	
+		}
+	}
+	.fa{
+		font-size: 40px;
+		padding-left: 10px;
+				color: $primary;
+				padding-bottom: 50px;
+	}
+	.copyright{
+		font-size: 10px;
+		color: #530f72;
+		padding-bottom: 150px;
+	}
+}
+
+.footer{
+	background-color: $primary;
+	width: 100%;
+	height: 50px;
+	// position: fixed;
+	bottom: 0;
+}
